@@ -29,24 +29,21 @@ body {
   background-color: #ffff;
 }
 
-.margin {
-  margin-left: 150px;
-  margin-right: 150px;
-  padding-top: 30px;
-  padding-bottom: 15px;
-}
-
 h1 {
-  font-size: 42px;
+  font-size: 2.4em;
   font-family: "NotoLight";
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  line-height: 2em;
+  padding: 5em 0 3em 0;
 }
 
 h2 {
   font-size: 30px;
   font-family: "NotoLight";
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 1em;
 }
 
 .h2-g {
@@ -61,10 +58,58 @@ h3 {
   color: white;
 }
 
-.txt-cuer {
-  font-family: "NotoRegular";
-  font-size: 14px;
-  color: #ffffff;
+header {
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+}
+
+.headbg {
+  background-color: #404a52;
+  width: 102%;
+  padding: 1.5em;
+  opacity: 90%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+a:hover {
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  display: inline;
+  font-family: "NotoBold";
+  font-size: 0.9em;
+  padding: 1em;
+}
+
+.ul-l {
+  padding-left: 24em;
+}
+
+.logo {
+  font-family: "NotoBold";
+  color: #fff;
+  font-size: 2em;
+}
+.logo:hover {
+  color: #4bcaff;
+  text-decoration: none;
+}
+
+.l-logo {
+  color: #4bcaff;
+}
+
+.bg-mali {
+  background-color: #4bcaff;
+  padding: 4em 0 3em;
 }
 
 .p-serv {
@@ -72,7 +117,57 @@ h3 {
   font-family: "NotoRegular";
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 12px;
+  font-size: 0.75em;
+}
+
+.port {
+  padding: 4em 0;
+}
+
+.btng {
+  color: #353f47;
+  font-size: 14px;
+  font-family: "NotoBold";
+}
+
+.ima {
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  margin: 0.5em;
+}
+.ima img {
+  width: 100%;
+  height: auto;
+}
+.ima .hov {
+  width: 100%;
+  height: 100%;
+  background: #353f46;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  transition: opacity 0.5s;
+}
+.ima .hov p {
+  width: 100%;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  font-family: "NotoLight";
+  margin: 0;
+}
+.ima:hover .hov {
+  opacity: 0.9;
+  transition: opacity 0.5s;
+}
+
+.txt-cuer {
+  font-family: "NotoRegular";
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .sup-port {
@@ -103,32 +198,6 @@ h3 {
   color: #515f67;
 }
 
-a {
-  color: #ffffff;
-}
-
-.hd-btn {
-  font-size: 30px;
-  font-family: "NotoBold";
-  color: #ffff;
-}
-
-.opt-btn {
-  font-size: 14px;
-  font-family: "NotoBold";
-}
-
-.btng {
-  color: #353f47;
-}
-
-.blue-btn {
-  color: #4bcaff;
-  border-color: #4bcaff;
-  border-width: 1px;
-  border-style: solid;
-}
-
 .btn-just {
   color: #353f46;
   border-color: #353f46;
@@ -155,21 +224,6 @@ a {
   float: right;
 }
 
-.headbg {
-  background-color: #404a52;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  opacity: 70%;
-  height: 20%;
-}
-
-.bg-head {
-  background-image: url(../imgs/header.jpg);
-  background-size: 100%;
-  height: 577px;
-  background-repeat: no-repeat;
-}
-
 .bg-mess {
   background-image: url(../imgs/contact.jpg);
   background-size: 100%;
@@ -188,30 +242,9 @@ a {
   background-color: #515f67;
 }
 
-.back-mali {
-  background-color: #4bcaff;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .bg-pie {
   background-color: #353f47;
   height: 50px;
-}
-
-.txt-cen {
-  margin-top: 150px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.mar-lef {
-  margin-left: 380px;
-}
-
-.lef2 {
-  padding-left: 200px;
 }
 
 mark {
