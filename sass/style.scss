@@ -71,7 +71,7 @@ li{
 }
 .logo{
     font-family: 'NotoBold';
-    color: $white-copy;
+    color: #fff;
     font-size: 2em;
     &:hover{
         color: #4bcaff;
@@ -115,7 +115,6 @@ li{
         width: 100%;
         height: auto;
     }
-
     .hov{
         width:100%;
         height: 100%;
@@ -123,10 +122,9 @@ li{
         position: absolute;
         opacity: 0;
         top: 0;
-        left: 0;
+        left: 0.8em;
         padding: 0;
-        transition: opacity .5s;
-
+        
         p{
             width: 100%;
             color: #fff;
@@ -136,15 +134,76 @@ li{
             margin: 0;
         }
     }
-
     &:hover{
         .hov{
-            opacity: .9;
-            transition: opacity .5s;
+            opacity: .9; 
         }
     }
 }
 
+//just default
+.bd-just{
+    margin-top: .5em;
+}
+.btn-just{
+    color: #353f46;
+    display: inline-block;
+    border: 2px solid #353f46;
+    font-size: 14px;
+    font-family: 'NotoBold';
+    padding: .5em 2em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+//testimonias
+.pd-tes{
+    padding: 4em 0 3em;
+}
+.txt-twcu{
+    font-size: 28px;
+    font-family: 'NotoLight';
+}
+.txt-wal{
+    font-size: .75em;
+    font-family: 'NotoBold';
+    color: #4bcaff;
+}
+
+//contacto
+input[type=text]{
+    width: 90%;
+    border: 1px solid #fff;
+    background: no-repeat;
+    padding: 1em;
+    color: #fff;
+}
+.btn-msn{
+    background-color: #4bcaff;
+    font-family: 'NotoBold';
+    color: #ffff;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+
+    &:hover{
+        color: #4bcaff;
+        background: #fff;
+    }
+}//btn btn-primary
+
+.foot{
+    display: inline-block;
+    color: #353f46;
+    text-decoration: none;
+        
+    &:hover {
+    color: #4bcaff;
+    text-decoration: none;
+    transition: all ease .5s;
+    }
+}
 
 
 
@@ -155,21 +214,10 @@ li{
     font-size: 14px;
     color: #ffffff;
 }
-
-
 .sup-port{
     font-size: 24px;
     font-family: 'NotoBold';
     color: white;
-}
-.txt-twcu{
-    font-size: 28px;
-    font-family: 'NotoLight';
-}
-.txt-wal{
-    font-size: 14px;
-    font-family: 'NotoBold';
-    color: #4bcaff;
 }
 .com{
     font-size: 100px;
@@ -188,41 +236,12 @@ li{
 
 
 
-//botones
 
 
-
-.btn-just{
-    color: #353f46;
-    border-color: #353f46;
-    border-width: 2px;
-    border-style: solid;
-    font-size: 14px;
-    font-family: 'NotoBold';
-    width: 9em;
-    height: 3em;
-    margin-top: 50px;
-}
-.btn-msn{
-    background-color: #4bcaff;
-    font-family: 'NotoBold';
-    color: #ffff;
-    width: 150px;
-    height: 50px;
-    border: none;
-    margin-top: 50px;
-}//btn btn-primary
-
-
-
-.alg-right{
-    float: right;
-}//revisar
 
 
 
 //backgrounds
-
 .bg-mess{
     background-image: url(../imgs/contact.jpg);
     background-size: 100%;
@@ -247,8 +266,6 @@ li{
 
 
 //mini ajustes
-
-
 mark{
     background-color: #353f46;
     color: #ffffff;
